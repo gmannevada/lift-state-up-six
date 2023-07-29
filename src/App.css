@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+}
+/*   display: inline-block; /* prevents the bullets being forced off the left-hand side, but still allows padding to be applied */ */
+#ListItem li {
+  display: inline-block; /* prevents the bullets being forced off the left-hand side, but still allows padding to be applied */
+  padding-left: 100px;
+  margin-left: 100px; /* This gives enough room for the bullets to be shown */  
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(158, 142, 0, 0.616);  
+}
